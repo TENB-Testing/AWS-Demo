@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "onebucket" {
       enabled = false
    }
    tags = {
-     Name = "BucketDemo"
+     Name = "BucketDemo1"
      Environment = "Test"
    }
 }
